@@ -1,0 +1,71 @@
+body{
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1{
+  text-align: center;
+  color: #333;
+}
+
+input[type="text"],
+select {
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+input[type="text"]:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+li{
+  background-color: #fdfdfd;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  transition: box-shadow 0.3s ease;
+}
+
+li:hover{
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+li h3{
+  margin: 0 0 8px;
+  color: #222;
+}
+
+li p{
+  margin: 4px 0;
+  color: #555;
+}
+
+p{
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+  margin-top: 30px;
+}
